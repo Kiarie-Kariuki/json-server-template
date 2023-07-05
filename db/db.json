@@ -1,52 +1,86 @@
 {
-  "toys": [
+  "users": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "password123"
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "pass456"
+    }
+  ],
+  "tourPackages": [
+    {
+      "id": 1,
+      "name": "Mountain Expedition",
+      "description": "Experience the thrill of climbing majestic mountains.",
+      "activities": ["Rock climbing", "Hiking", "Campfire"],
+      "price": 500,
+      "image": "./img/Mountain Expedition.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Beach Adventure",
+      "description": "Enjoy sun, sand, and water sports on breathtaking beaches.",
+      "activities": ["Surfing", "Snorkeling", "Beach volleyball"],
+      "price": 350,
+      "image": "./img/Beach Expedition.jpg"
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "name": "Jungle Safari",
+      "description": "Embark on a thrilling wildlife exploration in the dense jungles.",
+      "activities": ["Jeep safari", "Bird watching", "Nature walks"],
+      "price": 450,
+      "image": "./img/Jungle Safari.jpg"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Mountain Lodge",
+      "location": "Mountain Town",
+      "pricePerNight": 150,
+      "rating": 4.5,
+      "image": "./img/Mountain Lodge.jpg"
     },
     {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "id": 2,
+      "name": "Beachfront Resort",
+      "location": "Coastal City",
+      "pricePerNight": 200,
+      "rating": 4.2,
+      "image": "./img/BeachFront Resort.jpg"
     },
     {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "id": 3,
+      "name": "Jungle Camp",
+      "location": "National Park",
+      "pricePerNight": 100,
+      "rating": 4.7,
+      "image": "./img/Jungle Camp.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "tourPackageId": 1,
+      "hotelId": 1,
+      "checkInDate": "2023-07-10",
+      "checkOutDate": "2023-07-15"
     },
     {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "id": 2,
+      "userId": 2,
+      "tourPackageId": 2,
+      "hotelId": 2,
+      "checkInDate": "2023-08-05",
+      "checkOutDate": "2023-08-10"
     }
   ]
 }
