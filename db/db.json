@@ -44,7 +44,7 @@
       "description": "Enjoy sun, sand, and water sports on breathtaking beaches.",
       "activities": ["Surfing", "Snorkeling", "Beach volleyball"],
       "price": 350,
-      "image": "/json-server-template/db/img/Beach Expedition.jpg"
+      "image": "img/Beach Expedition.jpg"
     },
     {
       "id": 3,
