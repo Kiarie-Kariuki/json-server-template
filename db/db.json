@@ -70,7 +70,7 @@
       "location": "Coastal City",
       "pricePerNight": 200,
       "rating": 4.2,
-      "image": "/json-server-template/db/img/BeachFront Resort.jpg"
+      "image": "https://github.com/Kiarie-Kariuki/json-server-template/blob/main/db/img/BeachFront%20Resort.jpg"
     },
     {
       "id": 3,
