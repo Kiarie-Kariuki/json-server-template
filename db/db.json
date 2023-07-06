@@ -82,14 +82,6 @@
     },
     {
       "id": 4,
-      "name": "Centre Hotel",
-      "location": "Downtown",
-      "pricePerNight": 180,
-      "rating": 4.1,
-      "image": "img/Centre Hotel.jpeg"
-    },
-    {
-      "id": 5,
       "name": "Seaside Inn",
       "location": "Coastal Town",
       "pricePerNight": 120,
