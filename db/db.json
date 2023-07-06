@@ -5,28 +5,28 @@
       "name": "John Doe",
       "email": "johndoe@gmail.com",
       "review": "The Mountain Expedition tour was absolutely incredible! The views were breathtaking, and the activities like rock climbing and hiking were thrilling. Highly recommend!",
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/John Doe.jpg"
+      "image": "/json-server-template/db/img/John Doe.jpg"
     },
     {
       "id": 2,
       "name": "Jane Smith",
       "email": "janesmith@gmail.com",
       "review": "Our experience with the Beach Adventure tour was fantastic. The beaches were stunning, and we had a blast with the water sports. Can't wait to go back!",
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Jane Smith.jpg"
+      "image": "/json-server-template/db/img/Jane Smith.jpg"
     },
     {
       "id": 3,
       "name": "David Johnson",
       "email": "davidjohnson@gmail.com",
       "review": "The Jungle Safari tour was an amazing wildlife adventure. We saw a variety of animals and enjoyed the jeep safari. Highly recommended for nature enthusiasts!",
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/David Johnson.jpeg"
+      "image": "/json-server-template/db/img/David Johnson.jpeg"
     },
     {
       "id": 4,
       "name": "Sarah Thompson",
       "email": "sarahthompson@gmail.com",
       "review": "The Mountain Lodge hotel was cozy and comfortable. The staff was friendly, and the mountain views from the room were breathtaking. Loved our stay!",
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Sarah Thompson.jpg"
+      "image": "/json-server-template/db/img/Sarah Thompson.jpg"
     }
   ],
   "tourPackages": [
@@ -36,7 +36,7 @@
       "description": "Experience the thrill of climbing majestic mountains.",
       "activities": ["Rock climbing", "Hiking", "Campfire"],
       "price": 500,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Mountain Expedition.jpg"
+      "image": "/json-server-template/db/img/Mountain Expedition.jpg"
     },
     {
       "id": 2,
@@ -44,7 +44,7 @@
       "description": "Enjoy sun, sand, and water sports on breathtaking beaches.",
       "activities": ["Surfing", "Snorkeling", "Beach volleyball"],
       "price": 350,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Beach Expedition.jpg"
+      "image": "/json-server-template/db/img/Beach Expedition.jpg"
     },
     {
       "id": 3,
@@ -52,7 +52,7 @@
       "description": "Embark on a thrilling wildlife exploration in the dense jungles.",
       "activities": ["Jeep safari", "Bird watching", "Nature walks"],
       "price": 450,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Jungle Safari.jpg"
+      "image": "/json-server-template/db/img/Jungle Safari.jpg"
     }
   ],
   "hotels": [
@@ -62,7 +62,7 @@
       "location": "Mountain Town",
       "pricePerNight": 150,
       "rating": 4.5,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Mountain Lodge.jpg"
+      "image": "/json-server-template/db/img/Mountain Lodge.jpg"
     },
     {
       "id": 2,
@@ -70,7 +70,7 @@
       "location": "Coastal City",
       "pricePerNight": 200,
       "rating": 4.2,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/BeachFront Resort.jpg"
+      "image": "/json-server-template/db/img/BeachFront Resort.jpg"
     },
     {
       "id": 3,
@@ -78,7 +78,7 @@
       "location": "National Park",
       "pricePerNight": 100,
       "rating": 4.7,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Jungle Camp.jpg"
+      "image": "/json-server-template/db/img/Jungle Camp.jpg"
     },
     {
       "id": 4,
@@ -86,7 +86,7 @@
       "location": "Downtown",
       "pricePerNight": 180,
       "rating": 4.1,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Centre Hotel.jpeg"
+      "image": "/json-server-template/db/img/Centre Hotel.jpeg"
     },
     {
       "id": 5,
@@ -94,7 +94,7 @@
       "location": "Coastal Town",
       "pricePerNight": 120,
       "rating": 4.3,
-      "image": "/home/kiarie/Development/Code/Phase1/json-server-template/db/img/Seaside Inn.jpg"
+      "image": "/json-server-template/db/img/Seaside Inn.jpg"
     }
   ],
   "hotelBooking": [
