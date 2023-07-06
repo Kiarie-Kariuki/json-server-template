@@ -95,6 +95,14 @@
       "pricePerNight": 120,
       "rating": 4.3,
       "image": "img/Seaside Inn.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mara Lodge",
+      "location": "Masai Mara",
+      "pricePerNight": 220,
+      "rating": 4.8,
+      "image": "img/masai-mara-lodge.jpg"
     }
   ],
   "hotelBooking": [
